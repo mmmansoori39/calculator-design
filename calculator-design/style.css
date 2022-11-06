@@ -5,7 +5,7 @@ body{
 .cal{
     width: 400px;
     height: 625px;
-    margin: 20px auto;
+    margin: 50px auto;
     border-radius: 16px;
     position: relative;
 }
@@ -22,16 +22,27 @@ body{
     height: 125px;
     background-color: #CDBE78;
     border-radius: 16px 16px 0px 0px;
-    box-shadow: inset 2px 4px 2px 2px black;
+    box-shadow: inset -1px -1px 7px 0px black;
     /* padding-left: 100px; */
     display: flex;
+    /* position: relative; */
     align-items: center;
+}
+.w{
+    box-shadow: inset -1px -1px 7px 0px black;
+
 }
 .ok{
     margin-left: 25px;
+    /* margin-bottom: */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     color: #066163;
+    text-shadow: -2px 2px 3px #022f30;
+    /* position: absolute; */
+    /* left: 25px; */
+    /* top: -30px; */
+    /* bottom: 10; */
 }
 .cal-btn-f{
     width: 100%;
@@ -81,7 +92,7 @@ body{
     border: none;
     margin: 20px 18px;
     color: white;
-    /* padding: 0px 20px; */
+    /* font-size: 30px; */
 }
 
 .bm{
@@ -97,18 +108,43 @@ body{
     margin-left: 15px;
     padding: 0px 17px;
     border-radius: 15px;
-    color: white;
+    color: maroon;
+    /* font-size: 30px; */
 
 }
 .btn-a{
     border: none;
     width: 65px;
     height: 65px;
+    font-size: 18px;
     border-radius: 50%;
-    color: white;
+    color: black;
+    position: relative;
 
 }
-
+.kol{
+    position: absolute;
+    top: -25px;
+    left: 19px;
+    font-size: 47px;
+}
+.koll{
+    position: absolute;
+    top: -12px;
+    left: 16px;
+}
+.size{
+    position: absolute;
+    top: -75px;
+    left: 16px;
+    font-size: 80px;
+}
+.sizez{
+    position: absolute;
+    top: -30px;
+    left: 18px;
+    font-size: 50px;
+}
 .a{
     position: absolute;
     top: 17px;
@@ -146,8 +182,9 @@ body{
     border: none;
     height: 152px;
     width: 70px;
+    font-size: 30px;
     border-radius: 3px 25px 3px 25px;
-    color: white;
+    color: maroon;
 }
 .z{
     background-color: #CDBE78;
@@ -156,24 +193,27 @@ body{
     background-color: #066163;
 }
 .r{
-    box-shadow: 2px 2px 3px 2px black;
-    /* border-left: 1px solid white; */
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    box-shadow: 2px 1px 2px 1px #262525;
+    border-right: 2px solid rgb(30, 29, 29);
+    border-bottom: 2px solid rgb(28, 27, 27);
+    border: 1px solid rgb(36, 35, 35);
+}
+.rr{
+    box-shadow: 2px 1px 2px 1px #022f30;
+    border: 1px solid #2e8e90;
+    border-right: 2px solid #2e8e90;
+    border-bottom: 1px solid #2e8e90;
 }
 .k{
-    box-shadow: 3px 4px 3px 2px black;
+    box-shadow: inset -1px -1px 2px 2px black;
     
 }
 .q{
-    box-shadow: inset 2px 1px 3px 2px black;
+    box-shadow: inset -1px -1px 7px 0px black;
 }
-.w{
-    box-shadow: inset 2px 0px 3px 2px black;
 
-}
 .e{
-    box-shadow: -102px 2px 4px 1px black;
+    /* box-shadow: -102px 2px 4px 1px black; */
     border-top-left-radius: 16px;
 
 }
